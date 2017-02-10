@@ -1,0 +1,96 @@
+<!-- 调用头部文件 -->
+<include file="Public:header" title="{$SiteInfo.title}"/>
+<!-- header ends-->
+<div id="layerslider">
+    <!--layer slider starts-->
+    <div class="slider-shadow-top">
+    </div>
+    <div class="slider-shadow-bottom">
+    </div>
+    <foreach name="gimages" item="gimage">
+        <div class="ls-layer"
+             style="slidedirection: top; slidedelay: 6000; durationin: 1500; durationout: 1500; delayout: 500;">
+            <img src="{$gimage.imgurl}" class="ls-bg" alt="">
+
+            <h1 class="ls-s3 ls_large_text_01"
+                style="position: absolute; top:100px; left: 490px; slidedirection : top; slideoutdirection : top; durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInBack; delayin : 1000;">
+                {$gimage.information}</h1>
+            <a class="button huge color round ls-s8" href="{$gimage.url}"
+               style="position: absolute; top:270px; left: 490px; slidedirection : bottom; slideoutdirection : bottom; durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 1100;">详情</a>
+        </div>
+    </foreach>
+</div>
+<!--layer slider ends-->
+<div id="content">
+    <div class="home-intro"><!-- home intro starts -->
+        <div class="container">
+            <div class="three-fourth">
+                <p style="margin-top:19px">{$home.introduction}</p>
+            </div>
+            <div class="one-fourth">
+                <a href="{:U('message/index')}" class="button grey huge round">联系我们</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--home intro ends-->
+    <div class="container">
+        <foreach name="articles_1" item="article">
+            <div class="one-third">
+                <img src="{$article.cover}" style="height: 150px;width: 300px">
+            </div>
+        </foreach>
+    </div>
+    <div class="container">
+        <foreach name="articles_1" item="article1">
+            <div class="one-third">
+                <div class="feature-block"><!-- features blocks starts -->
+                    <div class="feature-block-title">
+                        <div class="feature-block-icon">
+                            <i class="icon-lightbulb"></i><span></span>
+                        </div>
+                        <a href="{:U('index/article')}?id={$article.id}"><h4>{$article1.title}</h4></a>
+                        <a href="{:U('index/article_list')}?category={$article.category}"><h6>
+                            {$article1.categoryname}</h6></a>
+                    </div>
+                    <div style="width:100%;height:120px;overflow: hidden;">{$article1.abstract}</div>
+                </div>
+            </div>
+        </foreach>
+    </div>
+    <div class="intro-features"><!-- intro features panel starts -->
+        <div class="container">
+            <h4>{$home.categoryname}</h4>
+            <div class="slidewrap">
+                <!--project carousel starts-->
+                <ul class="slider" id="sliderName">
+                    <li class="slide"><!-- carousel item starts -->
+                        <foreach name="articles_2" item="article2">
+                            <div class="one-fourth">
+                                <div class="item-wrapp">
+                                    <div class="portfolio-item">
+                                        <a href="{:U('index/article')}?id={$article.id}" class="item-permalink"><i class="icon-link"></i></a>
+                                        <a href="{$article.cover}"
+                                           data-rel="prettyPhoto"
+                                           class="item-preview"><i class="icon-zoom-in"></i></a>
+                                        <img src="{$article.cover}" alt="" style="width: 219px;height: 151px;"/>
+                                    </div>
+                                    <div class="portfolio-item-title">
+                                        <a href="{:U('index/article')}?id={$article.id}">{$article2.title}</a>
+                                        <div style="height:90px;overflow: hidden; ">{$article2.abstract}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </foreach>
+                    </li>
+                </ul><!-- carousel items UL ends -->
+            </div>
+        </div>
+    </div><!-- intro features panel ends -->
+</div>
+
+
+
+<!-- 调用脚部文件 -->
+<include file="Public:footer"/>

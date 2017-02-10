@@ -1,0 +1,225 @@
+[ 2016-03-28T00:06:06+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0059s ]
+SQL: UPDATE `lx_article` SET `title`='ceshis',`time`='2016-03-27 23:55:38',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='37',`abstract`='asdasdasfad',`information`='<p>gfegesf</p>',`home`='0',`author`='admin',`en`='1',`categoryAll`='34' [ RunTime:0.0030s ]
+
+[ 2016-03-28T00:09:27+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0057s ]
+SQL: UPDATE `lx_article` SET `title`='ceshis',`time`='2016-03-27 23:55:38',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='37',`abstract`='asdasdasfad',`information`='<p>gfegesf</p>',`home`='0',`author`='admin',`en`='1',`categoryAll`='34' [ RunTime:0.0023s ]
+
+[ 2016-03-28T00:10:28+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0071s ]
+SQL: INSERT INTO `lx_article` (`title`,`time`,`cover`,`category`,`abstract`,`information`,`home`,`author`,`en`,`categoryAll`) VALUES ('zhenhsampfmpa','2016-03-28 00:10:25','http://localhost:8088/england/Public/default.jpg','38','reagregae','<p>argrega</p>','0','admin','1','34') [ RunTime:0.0020s ]
+
+[ 2016-03-28T00:12:00+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0070s ]
+SQL: INSERT INTO `lx_article` (`title`,`time`,`cover`,`category`,`abstract`,`information`,`home`,`author`,`categoryAll`) VALUES ('asfafsd','2016-03-28 00:11:47','http://localhost:8088/england/Public/default.jpg','28','asfasfasfasdef','<p>raergrar</p>','0','admin','27') [ RunTime:0.0021s ]
+
+[ 2016-03-28T00:12:46+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0077s ]
+SQL: INSERT INTO `lx_article` (`title`,`time`,`cover`,`category`,`abstract`,`information`,`home`,`author`,`categoryAll`) VALUES ('sadfawfa','2016-03-28 00:12:44','http://localhost:8088/england/Public/default.jpg','35','awfewfasfad','<p>awergawerf</p>','0','admin','33') [ RunTime:0.0024s ]
+
+[ 2016-03-28T00:18:13+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0089s ]
+SQL: INSERT INTO `lx_article` (`title`,`time`,`cover`,`category`,`abstract`,`information`,`home`,`author`,`en`,`categoryAll`) VALUES ('safadsfaasgdfadfaf','2016-03-28 00:18:12','http://localhost:8088/england/Public/default.jpg','37','gadsfgefaw','<p>afwda</p>','0','admin','1','34') [ RunTime:0.0020s ]
+
+[ 2016-03-28T00:19:14+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0056s ]
+SQL: UPDATE `lx_article` SET `title`='safadsfaasgdfadfaf',`time`='2016-03-28 00:18:12',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='37',`abstract`='gadsfgefaw',`information`='<p>afwda</p>',`home`='1',`author`='admin',`en`='1',`categoryAll`='34' WHERE `aid` = 46 [ RunTime:0.0031s ]
+
+[ 2016-03-28T00:19:27+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0060s ]
+SQL: UPDATE `lx_article` SET `title`='sadfawfa',`time`='2016-03-28 00:12:44',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='35',`abstract`='awfewfasfad',`information`='<p>awergawerf</p>',`home`='1',`author`='admin',`categoryAll`='33' WHERE `aid` = 45 [ RunTime:0.0018s ]
+
+[ 2016-03-28T00:19:35+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0058s ]
+SQL: UPDATE `lx_article` SET `title`='asfafsd',`time`='2016-03-28 00:11:47',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='28',`abstract`='asfasfasfasdef',`information`='<p>raergrar</p>',`home`='1',`author`='admin',`categoryAll`='27' WHERE `aid` = 44 [ RunTime:0.0027s ]
+
+[ 2016-03-28T00:19:46+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0065s ]
+SQL: UPDATE `lx_article` SET `title`='zhenhsampfmpa',`time`='2016-03-28 00:10:25',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='38',`abstract`='reagregae',`information`='<p>argrega</p>',`home`='1',`author`='admin',`en`='1',`categoryAll`='34' WHERE `aid` = 43 [ RunTime:0.0024s ]
+
+[ 2016-03-28T00:19:54+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0095s ]
+SQL: UPDATE `lx_article` SET `title`='ceshis',`time`='2016-03-27 23:55:38',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='37',`abstract`='asdasdasfad',`information`='<p>gfegesf</p>',`home`='1',`author`='admin',`en`='1',`categoryAll`='34' WHERE `aid` = 25 [ RunTime:0.0031s ]
+
+[ 2016-03-28T00:20:00+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0058s ]
+SQL: UPDATE `lx_article` SET `title`='ceshis',`time`='2016-03-27 23:55:38',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='37',`abstract`='asdasdasfad',`information`='<p>gfegesf</p>',`home`='1',`author`='admin',`en`='1',`categoryAll`='34' WHERE `aid` = 26 [ RunTime:0.0020s ]
+
+[ 2016-03-28T00:20:06+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0055s ]
+SQL: UPDATE `lx_article` SET `title`='ceshis',`time`='2016-03-27 23:55:38',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='28',`abstract`='asdasdasfad',`information`='<p>gfegesf</p>',`home`='1',`author`='admin',`categoryAll`='27' WHERE `aid` = 27 [ RunTime:0.0019s ]
+
+[ 2016-03-28T00:20:44+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0059s ]
+SQL: UPDATE `lx_article` SET `title`='ceshis',`time`='2016-03-27 23:55:38',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='35',`abstract`='asdasdasfad',`information`='<p>gfegesf</p>',`home`='1',`author`='admin',`categoryAll`='33' WHERE `aid` = 28 [ RunTime:0.0018s ]
+
+[ 2016-03-28T00:21:42+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0057s ]
+SQL: UPDATE `lx_article` SET `title`='ceshis',`time`='2016-03-27 23:55:38',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='28',`abstract`='asdasdasfad',`information`='<p>gfegesf</p>',`home`='1',`author`='admin',`en`='0',`categoryAll`='27' WHERE `aid` = 25 [ RunTime:0.0019s ]
+
+[ 2016-03-28T00:21:51+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0070s ]
+SQL: UPDATE `lx_article` SET `title`='zhenhsampfmpa',`time`='2016-03-28 00:10:25',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='35',`abstract`='reagregae',`information`='<p>argrega</p>',`home`='1',`author`='admin',`en`='0',`categoryAll`='33' WHERE `aid` = 43 [ RunTime:0.0018s ]
+
+[ 2016-03-28T00:22:27+08:00 ] ::1 /england/index.php/Admin/article/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_category` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lx_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lx_article` [ RunTime:0.0058s ]
+SQL: UPDATE `lx_article` SET `title`='ceshis',`time`='2016-03-27 23:55:38',`cover`='http://localhost:8088/england/Public/default.jpg',`category`='35',`abstract`='asdasdasfad',`information`='<p>gfegesf</p>',`home`='0',`author`='admin',`en`='0',`categoryAll`='33' WHERE `aid` = 30 [ RunTime:0.0022s ]
+
+[ 2016-03-28T00:48:24+08:00 ] ::1 /england/index.php/Admin/Img/index.html
+ERR: 模板不存在:./Index/Admin/View/Img/index.html
+
+[ 2016-03-28T01:02:38+08:00 ] ::1 /england/index.php/Admin/img/upload.html
+ERR: 非法操作:upload
+
+[ 2016-03-28T02:51:25+08:00 ] ::1 /england/index.php/Admin/img/tj.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_images` [ RunTime:0.0082s ]
+SQL: UPDATE `lx_images` SET `id`='8',`name`='啊沙发沙发',`datetime`='2016-03-28 02:51:18',`type`='0',`url`='热啊敢惹',`imgurl`='http://localhost:8088/england/Uploads/20160328/56f82b9d56fa1.jpg',`en`='0' WHERE `id` = 8 [ RunTime:0.0019s ]
+
+[ 2016-03-28T02:51:32+08:00 ] ::1 /england/index.php/Admin/img/tj.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_images` [ RunTime:0.0086s ]
+SQL: UPDATE `lx_images` SET `id`='8',`name`='啊沙发沙发',`datetime`='2016-03-28 02:51:18',`type`='0',`url`='热啊敢惹',`imgurl`='http://localhost:8088/england/Uploads/20160328/56f82b9d56fa1.jpg',`en`='0' WHERE `id` = 8 [ RunTime:0.0019s ]
+
+[ 2016-03-28T02:55:36+08:00 ] ::1 /england/index.php/Admin/img/tj.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_images` [ RunTime:0.0084s ]
+SQL: UPDATE `lx_images` SET `id`='9',`name`='阿萨法发',`datetime`='2016-03-28 02:55:31',`type`='0',`url`='啊热果然额',`imgurl`='http://localhost:8088/england/Uploads/20160328/56f82c9a91f49.jpg',`en`='1' WHERE `id` = 9 [ RunTime:0.0019s ]
+
+[ 2016-03-28T03:07:41+08:00 ] ::1 /england/index.php/Admin/img/tj.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\england\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `lx_images` [ RunTime:0.0088s ]
+SQL: UPDATE `lx_images` SET `id`='8',`name`='啊沙发沙发',`datetime`='2016-03-28 03:07:39',`type`='0',`url`='热啊敢惹',`imgurl`='http://localhost:8088/england/Uploads/20160328/56f82b9d56fa1.jpg',`information`='啊额发额',`en`='0' WHERE `id` = 8 [ RunTime:0.0020s ]
+

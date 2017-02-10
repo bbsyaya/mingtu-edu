@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章回收站</title>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/Css/public.css" type="text/css">
+</head>
+<body>
+<table class="table">
+    <tr>
+        <th>标题</th>
+        <th>作者</th>
+        <th>所属分类</th>
+        <th>发布时间</th>
+        <th>操作</th>
+    </tr>
+    <!--循环开始-->
+    <foreach name="articles" item="article">
+        <tr>
+            <td>{$article.title}</td>
+            <td>{$article.author}</td>
+            <td>{$article.category}</td>
+            <td>{$article.time}</td>
+            <td><button value="{$article.aid}" onclick="return sc(this)">回收</button><button>彻底删除</button></td>
+        </tr>
+    </foreach>
+    <!--循环结束-->
+</table>
+{$page}
+
+<script>
+    function sc(obj) {
+        if(confirm("确定要回收？")){
+            window.location.href = "{:U('article/sc')}" + "?id=" + obj.value;
+        }
+    }
+</script>
+</body>
+</html>

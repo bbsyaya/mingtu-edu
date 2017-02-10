@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Category</title>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/Css/public.css" type="text/css">
+</head>
+<body>
+<table>
+    <tr>
+        <th>用户名</th>
+        <th>密码</th>
+        <th>锁定</th>
+        <th>操作</th>
+    </tr>
+    <foreach name="users" item="user">
+        <tr>
+            <td><input name="user" type="text" id="user_{$user.id}" value="{$user.user}"></td>
+            <td><input type="text" name="pass" value="{$user.pass}" id="pass_{$user.id}"></td>
+            <td>
+            <select name="status" id="status_{$user.id}">
+                <if condition="$user.status eq 1">
+                    <option value="1" selected>否</option>
+                    <option value="0">是</option>
+                    <else/>
+                    <option value="1">否</option>
+                    <option value="0" selected>是</option>
+                </if>
+            </select></td>
+            <td>
+                <button value="{$user.id}" onclick="return xg(this)">修改</button>
+                <button value="{$user.id}" onclick="return sc(this)">删除</button>
+            </td>
+        </tr>
+    </foreach>
+</table>
+<script>
+    function xg(obj) {
+        if (confirm("确认对修改保存?你可能要重新进行登陆")) {
+            var user = document.getElementById("user_" + obj.value.toString()).value;
+            var pass = document.getElementById("pass_" + obj.value.toString()).value;
+            var status = document.getElementById("status_" + obj.value.toString()).value;
+            window.location.href =
+                    "{:U('index/xg')}"
+                    + "?id="
+                    + obj.value
+                    + "&user="
+                    + user
+                    + "&pass="
+                    + pass
+                    + "&status="
+                    + status;
+        }
+    }
+    function sc(obj) {
+        if (confirm("确认删除?,你可能要重新进行登陆！")) {
+            window.location.href =
+                    "{:U('index/sc')}"
+                    + "?id="
+                    + obj.value;
+        }
+    }
+</script>
+</body>
+</html>

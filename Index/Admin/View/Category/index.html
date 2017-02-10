@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Category</title>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/Css/public.css" type="text/css">
+</head>
+<body>
+<table>
+    <tr>
+        <th>分类名称</th>
+        <th>分类类型</th>
+        <th>排序</th>
+        <th>url</th>
+        <th>操作</th>
+    </tr>
+    <foreach name="categories" item="category">
+        <tr>
+            <td><input type="text" id="name_{$category.id}" value="{$category.categoryname}"></td>
+            <td>
+                <if condition="$category.type eq 0">
+                    一级中文菜单 <input type="hidden" id="type_{$category.id}" value="{$category.type}">
+                    <else/><if condition="$category.type eq -1">
+                    一级英文菜单 <input type="hidden" id="type_{$category.id}" value="{$category.type}">
+                    <else/>
+                    <select name="type" id="type_{$category.id}">
+                        <foreach name="categoriesAll" item="categoryAll">
+                            <if condition="$category.type eq $categoryAll['id']">
+                                <option value="{$categoryAll.id}" selected>{$categoryAll.categoryname}</option>
+                                <else/>
+                                <option value="{$categoryAll.id}">{$categoryAll.categoryname}</option>
+                            </if>
+                        </foreach>
+                    </select>
+                </if>
+                </if>
+            </td>
+            <td><input type="text" name="ord" value="{$category.ord}" id="ord_{$category.id}"></td>
+            <td><input type="text" name="url" value="{$category.url}" id="url_{$category.id}"></td>
+            <td>
+                <button value="{$category.id}" onclick="return bc(this)">保存</button>
+                <button value="{$category.id}" onclick="return sc(this)">删除</button>
+            </td>
+        </tr>
+    </foreach>
+</table>
+<script>
+    function bc(obj) {
+        if (confirm("确认提交?")) {
+            var type = document.getElementById("type_" + obj.value.toString()).value;
+            var ord = document.getElementById("ord_" + obj.value.toString()).value;
+            var url = document.getElementById("url_" + obj.value.toString()).value;
+            var name = document.getElementById("name_" + obj.value.toString()).value;
+            window.location.href =
+                    "{:U('category/update')}"
+                    + "?id="
+                    + obj.value
+                    + "&type="
+                    + type
+                    + "&ord="
+                    + ord
+                    + "&url="
+                    + url
+                    + "&name="
+                    + name;
+        }
+    }
+    function sc(obj) {
+        if (confirm("确认删除?,同时将删除其下所属的子菜单以及文章，请慎重！！！")) {
+            window.location.href =
+                    "{:U('category/sc')}"
+                    + "?id="
+                    + obj.value;
+        }
+    }
+</script>
+</body>
+</html>

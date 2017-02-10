@@ -1,0 +1,38 @@
+<!-- 调用头部文件 -->
+<include file="Public:header" title="{$SiteInfo.title}"/>
+
+
+<div id="content">
+    <div id="breadcrumb">
+        <!-- breadcrumb starts-->
+        <div class="container">
+            <div class="one-half">
+                <a href="{:U('index/article_list')}?category={$article.category}"><h4>{$article.categoryName}</h4></a>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumbs ends -->
+    <div class="container">
+        <div class="one">
+            <div class="three-fourth">
+                <div class="blog-post">
+                    <div class="permalink">
+                        <h4><a href="#">{$article.title}</a></h4>
+                    </div>
+                    <ul class="post-meta">
+                        <li><i class="icon-time"></i>{$article.time}</li>
+                        <!-- Date -->
+                        <li><i class="icon-user"></i><a href="#">{$article.author}</a></li>
+                        <!-- Author -->
+                        <li><i class="icon-tags"></i><a href="#">{$article.categoryname}</a></li>
+                        <!-- Category -->
+                    </ul>
+                    <!-- End post-meta -->
+                    <div class="post-intro" id="information">{$article.information}
+                    </div>
+                </div>
+            </div>
+
+            <include file="Public:right"/>
+<!-- 调用脚部文件 -->
+<include file="Public:footer"/>

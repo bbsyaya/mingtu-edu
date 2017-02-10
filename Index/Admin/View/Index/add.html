@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Category</title>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/Css/Public.css" type="text/css">
+</head>
+<body>
+<table class="table">
+    <tr>
+        <th style="text-align: center">
+            添加用户
+        </th>
+    </tr>
+    <tr>
+        <td align="center">
+            <label for="name">用户名：</label>
+            <input type="text" id="name" name="name">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <label for="pass">密码：</label>
+            <input type="text" id="pass" name="pass" value="">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <button onclick="return tj()">添加</button>
+        </td>
+    </tr>
+</table>
+<script>
+    function tj(obj) {
+        var name = document.getElementById("name").value;
+        var pass = document.getElementById("pass").value;
+        if(!(pass && name)){
+            alert('请填写完整');return false;
+        }
+        if (confirm("确认添加?")) {
+            window.location.href =
+                    "{:U('index/tj')}"
+                    + "?user="
+                    + name
+                    + "&pass="
+                    + pass
+        }
+    }
+</script>
+</body>
+</html>

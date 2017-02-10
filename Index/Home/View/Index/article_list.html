@@ -1,0 +1,62 @@
+<!-- 调用头部文件 -->
+<include file="Public:header"/>
+<!-- header ends-->
+<div id="content">
+    <div id="breadcrumb">
+        <!-- breadcrumb starts-->
+        <div class="container">
+            <div class="one-half">
+                <h4>{$catelist.categoryname}</h4>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumbs ends -->
+    <div class="container">
+        <div class="one">
+            <div class="three-fourth">
+                <foreach name="articles" item="article">
+                    <div class="blog-post">
+                        <div class="media-holder">
+                            <div class="item-wrapp">
+                                <div class="blog-item large">
+                                    <a href="{:U('index/article')}?id={$article.aid}" class="item-permalink"><i
+                                            class="icon-link"></i></a>
+                                    <a href="{$article.cover}" data-rel="prettyPhoto"
+                                       class="item-preview"><i class="icon-zoom-in"></i></a>
+                                    <img src="{$article.cover}" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="permalink">
+                            <h4><a href="{:U('index/article')}?id={$article.aid}">{$article.title}</a></h4>
+                        </div>
+                        <ul class="post-meta">
+                            <li><i class="icon-time"></i>{$article.time}</li>
+                            <!-- Date -->
+                            <li><i class="icon-user"></i>{$article.author}</li>
+                            <!-- Author -->
+                            <li><i class="icon-tags"></i><a href="{:U('index/article_list')}?category={$article.category}">{$article.categoryname}</a>
+                            </li>
+                        </ul>
+                        <div class="post-intro">
+                            <p>{$article.abstract}</p>
+                            <br/>
+                            <p>
+                                <a href="{:U('index/article')}?id={$article.aid}"
+                                   class="button color small round">阅读更多</a>
+                            </p>
+                        </div>
+                    </div>
+                </foreach>
+
+                <!-- Pagination -->
+                <nav class="pagination">
+                    <ul>{$page}
+                    </ul>
+                </nav>
+                <!-- End pagination -->
+            </div>
+            <!--调用右边文件-->
+            <include file="Public:right"/>
+<!-- 调用脚部文件 -->
+<include file="Public:footer"/>
